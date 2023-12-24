@@ -1,4 +1,5 @@
 public class Carro {
+    //Atributos
     String nome;
     String marca;
     int ano;
@@ -25,7 +26,7 @@ public class Carro {
     }
 
     // System.out.println("A velocidade é " + c1.vel + "KM/H");
-    // metodo
+    // metodos
     void acelerar(int aceleracao) {
         vel += aceleracao;
     }
